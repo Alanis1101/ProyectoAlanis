@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>galeria</title>
+        <meta charset="utf-8">
+        <meta name="description" content="galeria">
+        <meta name="keywors" content="html,css, galeria">
+        <meta name="author" content="Angie Alanis Espina">
+        <style>
+
+            body{
+                background:linear-gradient(rgb(61, 175, 175),teal)
+            }
+            
+            h1{
+                color:white;
+                text-align: center;
+                margin: 0;
+                font-family:Georgia, 'Times New Roman', Times, serif;
+                font-weight: 100;
+                margin-bottom: 20px;
+                font-size: 30px;
+            }
+
+            h2{
+                color: white;
+                text-align: center;
+                margin: 0;
+                font-family:Verdana, Geneva, Tahoma, sans-serif;
+                font-weight: 100;
+                margin-bottom: 20px;
+            }
+            
+            .fotos{
+               display: flex;
+               flex-direction: row;
+               border-radius:8px;
+            }
+
+           .fotos div{
+               margin-left:8px;
+               margin-top:15px;
+               margin-bottom:15px;
+               width: 100%;
+            }
+
+           .fotos div img{
+               border: 2px solid black;
+               border-radius:8px;
+               max-width: 95%;
+               height: auto;
+            }
+
+            .banner{
+                display: flex;
+                flex-direction: row;
+            }
+
+            .banner div{
+                width: 100%;
+                border-radius: 8px;
+                
+            }
+
+            .banner div img{
+                margin-top:15px;
+                margin-bottom:15px;
+                margin-left:5px;
+                margin-right: 5px;
+                max-width: 99%;
+                height: auto;
+                border-radius:5%;
+            }
+
+            .banner div img:hover{
+                box-shadow: 0 0 2px 4px white;
+            }
+
+            .link a{
+                display: flex;
+                flex-direction: row;
+                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                font-size: 20px;
+                text-align: center;
+            }
+            .link a:link{
+                color: black;
+            }
+
+            .link a:visited{
+                color:white;
+            }
+
+            .piedepagina{
+                
+                display: flex;
+                flex-direction: row;
+                background-color: black;
+                
+            }
+            
+            .piedepagina div{
+
+                background-color: black;
+                width:100%;
+                border:1px solid white;
+                line-height: 30px;
+                padding:10px;
+
+                
+            }
+
+
+            .piedepagina div h2{
+                text-align: center;
+                color:white;
+                font-size:25px;
+            }
+
+            
+        </style>
+    </head>
+    <body>
+
+        <h1>Galeria De Fotos</h1>
+
+        <div class="banner">
+            <div>
+                <img src="../galeria/galeria.png">
+            </div>
+        </div>
+        <br/>
+        <h2>DEPARTAMENTO DE COMPUTACIÓN</h2>
+        <div class="fotos">
+            
+            <br/>
+            <div>
+                <img src="https://computacion.unan.edu.ni/wp-content/uploads/2017/07/img-8-800x480.jpg">
+            </div>
+            <div>
+                <img src="https://computacion.unan.edu.ni/wp-content/uploads/2017/07/img-2-mejorado-800x480.jpg">
+            </div>
+            <div>
+                <img src="https://computacion.unan.edu.ni/wp-content/uploads/2017/07/img-4-800x480.jpg">
+            </div>
+            <div>
+                <img src="https://computacion.unan.edu.ni/wp-content/uploads/2017/07/img-5-800x480.jpg">
+            </div>
+        </div>
+        <div class="fotos">
+            <div>
+                <img src="https://computacion.unan.edu.ni/wp-content/uploads/2017/07/img2-4-800x480.jpg">
+            </div>
+            <div>
+                <img src="https://computacion.unan.edu.ni/wp-content/uploads/2017/07/img-6-mejorado-800x480.jpg">
+            </div>
+            <div>
+                <img src="https://computacion.unan.edu.ni/wp-content/uploads/2017/07/IMG_20170706_105259-800x480.jpg">
+            </div>
+            <div>
+                <img src="https://computacion.unan.edu.ni/wp-content/uploads/2017/07/img-5-1-800x480.jpg">
+            </div>
+        </div>
+<br/>
+        <h2>Día del Programador 03.10.2017</h2>
+        <div class="fotos">
+            <div>
+                <img src="https://computacion.unan.edu.ni/wp-content/uploads/2017/10/IMG_5043.jpg">
+            </div>
+            <div>
+                <img src="https://computacion.unan.edu.ni/wp-content/uploads/2017/10/IMG_5047.jpg">
+            </div>
+            <div>
+                <img src="https://computacion.unan.edu.ni/wp-content/uploads/2017/10/IMG_5052.jpg">
+            </div>
+            <div>
+                <img src="https://computacion.unan.edu.ni/wp-content/uploads/2017/10/IMG_5017.jpg">
+            </div>
+        </div>
+
+        <div class="fotos">
+            <div>
+                <img src="https://computacion.unan.edu.ni/wp-content/uploads/2017/10/IMG_5008.jpg">
+            </div>
+            <div>
+                <img src="https://computacion.unan.edu.ni/wp-content/uploads/2017/10/IMG_4984.jpg">
+            </div>
+            <div>
+                <img src="https://computacion.unan.edu.ni/wp-content/uploads/2017/10/IMG_5068.jpg">
+            </div>
+            <div>
+                <img src="https://computacion.unan.edu.ni/wp-content/uploads/2017/10/IMG_5069.jpg">
+            </div>
+        </div>
+
+        <br/>
+        <div class="link">
+            <div>
+                <a href="../Proyectofinal.html">Volver a página Principal</a>
+            </div>
+        </div>
+
+        <br/>
+        <div class="piedepagina">
+            <div>
+                <h2>© 2021 Departamento de Computación | Alanis Espinal.</h2>
+            </div>
+        </div>
+    </body>
+</html>

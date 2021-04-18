@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Plan De Estudio</title>
+        <meta charset="utf-8">
+        <meta name="description" content="plan">
+        <meta name="keywors" content="html,css">
+        <meta name="author" content="Angie Alanis Espina">
+        <style>
+            body{
+                background:linear-gradient(rgb(61, 175, 175),teal)
+            }
+            
+            h1{
+                color:white;
+                text-align: center;
+                margin: 0;
+                font-family:Georgia, 'Times New Roman', Times, serif;
+                font-weight: 100;
+                margin-bottom: 20px;
+                font-size: 30px;
+            }
+            h2{
+                color:white;
+                text-align: justify;
+                margin: 0;
+                font-family:Verdana, Geneva, Tahoma, sans-serif;
+                font-weight: 100;
+                margin-bottom: 20px;
+                font-size: 25px;
+            }
+            /*DATOS**/
+            .datos{
+                
+                display: flex;
+                flex-direction: row;
+                border-radius:8px;
+                flex-wrap: wrap;                
+               
+                
+            }
+            
+            .datos div{
+                width:100%;
+                border:1px solid white;
+                line-height: 70px;
+                border-radius: 8px;
+                flex:1 200px;
+                
+                
+            }
+
+            .datos div ul li{
+                font-size:20px;
+                color:white;
+                text-align:justify;
+                line-height: 30px;
+            }
+            .datos div h2{
+                color:white;
+                text-align: center;
+            }
+            
+
+            /*Tabla*/
+            .Asignaturas{
+                display:flex;
+                flex-direction: row;
+            }
+
+            .Asignaturas div{
+                width: 100%;
+                border-radius: 8px;
+            }
+
+            .Asignaturas div table {
+                align-content:center;
+                border-radius: 10px;
+                border: 1px solid #999;
+                text-align: center;
+                border-collapse: collapse;
+                margin: 3px;
+                caption-side: top;
+                padding: 10px;
+            }
+            
+            .Asignaturas div table thead{
+                background-color: darkred;
+                color: white;
+            }
+
+            .Asignaturas div table tbody{
+                background-color: white;
+                color: black;
+            }
+            /*BANER*/
+            .banner{
+                display: flex;
+                flex-direction: row;
+            }
+
+            .banner div{
+                width: 100%;
+                border-radius: 8px;
+                
+            }
+
+            .banner div img{
+                margin-top:15px;
+                margin-bottom:15px;
+                margin-left:5px;
+                margin-right: 5px;
+                max-width: 99%;
+                height: auto;
+                border-radius:5%;
+            }
+
+            .banner div img:hover{
+                box-shadow: 0 0 2px 4px rgba(255, 255, 255, 0.816);
+            }
+
+            /*ENLACE*/
+
+            .link a{
+                display: flex;
+                flex-direction: row;
+                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                font-size: 20px;
+                text-align: center;
+            }
+            .link a:link{
+                color: black;
+            }
+
+            .link a:visited{
+                color:white;
+            }
+
+            /*PIE DE PÁGINA*/
+            .piedepagina{
+                
+                display: flex;
+                flex-direction: row;
+                background-color: black;
+                
+            }
+            
+            .piedepagina div{
+
+                background-color: black;
+                width:100%;
+                border:1px solid white;
+                line-height: 30px;
+                padding:10px;
+
+                
+            }
+
+
+            .piedepagina div h2{
+                text-align: center;
+                color:white;
+                font-size:25px;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <h1>Plan de Estudio de la Carrera</h1>
+
+        <div class="banner">
+            <div>
+                <img src="../galeria/plan.png">
+            </div>
+            
+        </div>
+
+        <div class="datos">
+            <div>
+                <h2>
+                    <b>Datos generales</b>
+                </h2>
+                
+                <ul type="disc">
+                    <li>Nombre de la Carrera: Matemática</li>
+                    <li>Facultad: Educación e Idiomas</li>
+                    <li>Grado a obtener: Profesor de Educación Media (PEM), Licenciado en Ciencias de la Educación con Mención en Matemática</li>
+                    <li>Total de horas del Plan de Estudios: 9630</li>
+                    <li>Total de créditos académicos: 214</li>
+                    <li>Régimen académico: Semestral</li>
+                    <li>Número de semanas según régimen académico: 15</li>
+                    <li>Modalidad: Presencial, Profesionalización</li>
+                    <li>Turno: Matutino, Dominical</li>
+                    <li>Sede: Recinto Universitario Rubén Darío, FAREM-Chontales</li>
+                </ul>
+            </div>
+        </div>
+        <br/>
+        <div class="Asignaturas">
+            <div>
+                <h2><b>Asignaturas del plan de estudio</b></h2>
+                <table border="3">
+                    <thead>
+                        <tr>
+                            <th>Primer año</th>
+                            <th>Segundo año</th>
+                            <th>Tercer año</th>
+                            <th>Cuarto año</th>
+                            <th>Quinto año</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Informática Básica</td>
+                            <td>Seminario de Formación</td>
+                            <td>Cálculo Integral</td>
+                            <td>Didáctica de la Matemática II</td>
+                            <td>Modalidad de Graduaciónz</td>
+                        </tr>
+                        <tr>
+                            <td>Técnicas de Lectura, Redacción y Ortografía</td>
+                            <td>Integral</td>
+                            <td>Geometría Cartesiana</td>
+                            <td>Cálculo Vectorial</td>
+                            <td>Análisis Matemático</td>
+                        </tr>
+                        <tr>
+                            <td>Geografía e Historia de Nicaragua</td>
+                            <td>Lógica y Teoría de Conjuntos</td>
+                            <td>Curso de Graduación (PEM)</td>
+                            <td>Estructuras Algebraicas</td>
+                            <td>Geometría Diferencial de Curvas y Superficies</td>
+                        </tr>
+                        <tr>
+                            <td>Matemáticas Generales</td>
+                            <td>Geometría Euclidiana</td>
+                            <td>Facultativa de Carrera</td>
+                            <td>Estadística II</td>
+                            <td rowspan="9">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>Introducción a la Filosofía</td>
+                            <td>Didáctica General</td>
+                            <td>Evaluación Educativa</td>
+                            <td>Taller Didáctico de Matemática V</td>
+                        </tr>
+                        <tr>
+                            <td>Psicología General y del Aprendizaje</td>
+                            <td>Estadística I</td>
+                            <td>Series</td>
+                            <td>Ecuaciones Diferenciales</td>
+                        </tr>
+                        <tr>
+                            <td>Taller Didáctico de Matemática I</td>
+                            <td>Cálculo Diferencial</td>
+                            <td>Algebra Lineal</td>
+                            <td>Ecuaciones Diferenciales</td>
+                        </tr>
+                        <tr>
+                            <td>Técnicas de Investigación</td>
+                            <td>Práctica de Especialización</td>
+                            <td>Geometría Lineal del Espacio</td>
+                            <td>Algebra Computacional</td>
+                        </tr>
+                        <tr>
+                            <td>Documental</td>
+                            <td>Dominio Numéricos</td>
+                            <td>Probabilidad II</td>
+                            <td>Práctica de Profesionalización</td>
+                        </tr>
+                        <tr>
+                            <td>Funciones Reales</td>
+                            <td>Didáctica de la Matemática I</td>
+                            <td>Geometría Computacional</td>
+                            <td>Investigación Aplicada</td>
+                        </tr>
+                        <tr>
+                            
+                            <td>Introducción a la Física</td>
+                            <td>Taller Didáctico de MatemáticaIII</td>
+                            <td rowspan="2">&nbsp;</td>
+                            <td rowspan="2">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>Pedagogia General</td>
+                            <td>&nbsp;</td>
+                            
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <br/>
+        <div class="link">
+            <div>
+                <a href="../Proyectofinal.html">Volver a página Principal</a>
+            </div>
+        </div>
+
+        <br/>
+        
+        <div class="piedepagina">
+            <div>
+                <h2>© 2021 Departamento de Computación | Alanis Espinal.</h2>
+            </div>
+        </div>
+    </body>
+</html>
